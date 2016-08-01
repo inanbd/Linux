@@ -1,0 +1,33 @@
+wifi disconnect: 
+	sudo ifconfig wlan0 down
+ip address: 
+	ifconfig
+1st step:
+	sudo apt-get update
+	sude apt-get upgrade
+root access:
+	sudo su
+enabling root user :
+	sudo passwd root
+install chromium browser:
+	sudo apt-get install chromium-browser
+install firefox
+	sudo apt-get install iceweasel
+
+temperature: 
+	vcgencmd measure_temp
+
+install-servers:
+	apt-get install apache2
+	apt-get install mysql-server
+	apt-get install php5
+	apt-get install php5-mysql
+
+changing permissions:
+	chmod -R 777 foldername
+
+expanding file system:
+	sudo apt-get install gparted
+kali linux full install
+	apt-get install kali-linux-full
+
